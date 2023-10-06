@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../dist/output.css" />
+		<title>Inputs</title>
+	</head>
+	<body class="font-inter bg-netural-1000">
+		<h1 class="text-white text-2xl text-center font-bold">Input Components</h1>
+		<section class="flex items-center justify-center my-4 flex-wrap gap-5">
+			<div
+				class="flex items-center justify-between focus-within:border-blue-default rounded border border-neutral-500 py-4 px-3 relative w-100"
+			>
+				<input
+					class="bg-transparent text-neutral-50 peer focus:outline-none grow"
+					placeholder="Value"
+				/>
+				<label
+					class="absolute peer-focus:text-blue-default text-neutral-500 font-medium left-4 -top-2 text-xs px-1 leading-regular bg-black pointer-events-none"
+				>
+					<p class="text-center">Label</p>
+				</label>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="peer-focus:opacity-100 opacity-0"
+					width="24"
+					height="24"
+					viewBox="0 0 24 24"
+					fill="none"
+				>
+					<path
+						d="M12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"
+						fill="#00BE74"
+					/>
+				</svg>
+			</div>
+
+			<!-- Search Bar  -->
+			<div
+				class="w-96 bg-searchbar-fill py-2.5 px-4 group rounded-full border border-searchbar-fill focus-within:border-blue-default flex items-center gap-4"
+			>
+				<svg
+					class="fill-[#737373] group-focus-within:fill-blue-default"
+					xmlns="http://www.w3.org/2000/svg"
+					width="17"
+					height="17"
+					viewBox="0 0 17 17"
+					fill="none"
+				>
+					<path
+						d="M16.0446 15.2054L13.1471 12.3079C14.1961 11.065 14.8334 9.46109 14.8334 7.70834C14.8334 3.77375 11.643 0.583336 7.70837 0.583336C3.77379 0.583336 0.583374 3.77375 0.583374 7.70834C0.583374 11.6429 3.77379 14.8333 7.70837 14.8333C9.46192 14.8333 11.065 14.1968 12.3064 13.1471L15.2039 16.0446C15.3202 16.1602 15.473 16.2188 15.6235 16.2188C15.7739 16.2188 15.9282 16.161 16.043 16.0446C16.2766 15.8126 16.2766 15.4374 16.0446 15.2054ZM1.77087 7.70834C1.77087 4.43479 4.43483 1.77084 7.70837 1.77084C10.9819 1.77084 13.6459 4.43479 13.6459 7.70834C13.6459 10.9819 10.9819 13.6458 7.70837 13.6458C4.43483 13.6458 1.77087 10.9819 1.77087 7.70834Z"
+					></path>
+				</svg>
+				<input
+					type="text"
+					placeholder="Search"
+					class="w-full bg-transparent focus:outline-none text-neutral-50 text-16 placeholder:text-neutral-600"
+				/>
+			</div>
+		</section>
+
+		<!-- Tweet Input  -->
+		<h2 class="text-2xl text-white font-semibold">Input Text</h2>
+		<section class="my-4">
+			<div class="w-full bg-transparent flex gap-3">
+				<img src="../public/images/avatar.png" class="rounded-full w-9" />
+				<input
+					type="text"
+					placeholder="What's happening?"
+					class="w-full bg-transparent focus:outline-none caret-blue-default text-neutral-50 text-20 font-regular placeholder:text-neutral-600"
+				/>
+			</div>
+		</section>
+		<section class="my-4">
+			<div class="w-full bg-transparent flex gap-3">
+				<img src="../public/images/avatar.png" class="rounded-full w-9" />
+				<input
+					type="text"
+					placeholder="What's happening?"
+					value="Don't wish for it. Work for it."
+					class="w-full bg-transparent focus:outline-none caret-blue-default text-neutral-50 text-20 font-regular placeholder:text-neutral-600"
+				/>
+			</div>
+		</section>
+	</body>
+</html>

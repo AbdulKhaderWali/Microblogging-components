@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../dist/output.css" />
+		<title>Buttons</title>
+	</head>
+	<body class="font-inter bg-netural-1000">
+		<header></header>
+		<main>
+			<!--------------- All the Buttons here ------------------->
+			<section class="my-4">
+				<h1 class="text-white text-2xl text-center font-bold">Buttons</h1>
+				<table class="ml-auto mr-auto border-spacing-y-3">
+					<!-- Table Head  -->
+					<thead class="text-white">
+						<tr>
+							<th class="p-4">Default / Hover</th>
+							<th class="p-4">Disabled</th>
+						</tr>
+					</thead>
+
+					<!-- Table Body  -->
+					<tbody>
+						<!-- Create account  -->
+						<tr class="p-5">
+							<td class="p-4">
+								<button
+									class="bg-neutral-50 w-85 rounded-5xl shadow-1 backdrop-blur-xl hover:bg-neutral-200 font-bold leading-normal text-base flex items-center justify-center gap-2.5"
+								>
+									<div class="px-6 py-2">Create account</div>
+								</button>
+							</td>
+							<td class="p-4">
+								<button
+									class="bg-neutral-50 w-85 rounded-5xl shadow-1 backdrop-blur-xl font-bold leading-normal text-base opacity-50 cursor-not-allowed flex items-center justify-center gap-2.5"
+								>
+									<div class="px-6 py-2">Create account</div>
+								</button>
+							</td>
+						</tr>
+
+						<!-- Next  -->
+						<tr>
+							<td class="p-4">
+								<button
+									class="bg-neutral-50 w-100 rounded-5xl shadow-1 backdrop-blur-xl hover:bg-neutral-200 font-bold leading-normal text-base flex items-center justify-center gap-2.5"
+								>
+									<div class="px-6 py-2">Next</div>
+								</button>
+							</td>
+							<td class="p-4">
+								<button
+									class="bg-neutral-50 w-100 rounded-5xl shadow-1 backdrop-blur-xl font-bold leading-normal text-base opacity-50 cursor-not-allowed flex items-center justify-center gap-2.5"
+								>
+									<div class="px-6 py-2">Next</div>
+								</button>
+							</td>
+						</tr>
+
+						<!-- Follow  -->
+						<tr>
+							<td class="p-4">
+								<button
+									class="bg-neutral-50 rounded-5xl shadow-1 backdrop-blur-xl hover:bg-neutral-200 font-bold leading-normal text-base flex items-center justify-center gap-2.5"
+								>
+									<div class="px-5 py-2">Follow</div>
+								</button>
+							</td>
+							<td class="p-4">
+								<button
+									class="bg-neutral-50 rounded-5xl shadow-1 backdrop-blur-xl font-bold leading-normal text-base opacity-50 cursor-not-allowed flex items-center justify-center gap-2.5"
+								>
+									<div class="px-5 py-2">Follow</div>
+								</button>
+							</td>
+						</tr>
+
+						<!-- Sign Up / Following  -->
+						<tr>
+							<td class="p-4">
+								<button
+									class="w-85 px-5 py-2 text-blue-default border-stroke border rounded-4xl shadow-1 backdrop-blur-xl font-bold leading-normal text-base"
+								>
+									<div>Sign up</div>
+								</button>
+							</td>
+							<td class="p-4">
+								<button
+									class="px-4 py-1.5 text-neutral-50 border-stroke border rounded-5xl shadow-1 backdrop-blur-xl font-bold leading-normal text-sm"
+								>
+									<div>Following</div>
+								</button>
+							</td>
+						</tr>
+
+						<!-- Post Small  -->
+						<tr>
+							<td class="p-4">
+								<button
+									class="text-neutral-50 bg-blue-default hover:bg-blue-hover py-3 px-6 rounded-full font-bold leading-normal text-base disabled:opacity-50 disabled:cursor-not-allowed"
+								>
+									Post
+								</button>
+							</td>
+							<td class="p-4">
+								<button
+									disabled
+									class="text-neutral-50 bg-blue-default hover:bg-blue-hover py-3 px-6 rounded-full font-bold leading-normal text-base disabled:opacity-50 disabled:cursor-not-allowed"
+								>
+									Post
+								</button>
+							</td>
+						</tr>
+
+						<!-- Post Medium  -->
+						<tr>
+							<td class="p-4">
+								<button
+									class="text-neutral-50 bg-blue-default hover:bg-blue-hover py-4 px-23 rounded-full font-bold leading-normal text-base"
+								>
+									Post
+								</button>
+							</td>
+							<td class="p-4">
+								<button>Post</button>
+							</td>
+						</tr>
+
+						<!-- Post Large  -->
+						<tr>
+							<td class="py-4">
+								<button
+									class="text-neutral-50 bg-blue-default hover:bg-blue-hover p-5 w-100 rounded-full font-bold leading-normal text-base"
+								>
+									Post
+								</button>
+							</td>
+							<td class="py-4">
+								<button
+									disabled
+									class="text-neutral-50 bg-blue-default hover:bg-blue-hover p-5 w-100 rounded-full font-bold leading-normal text-base disabled:opacity-50 disabled:cursor-not-allowed"
+								>
+									Post
+								</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<!-- For you / Following -->
+			<h2 class="text-2xl font-semibold text-white text-center mt-6">
+				Tweets Header Section
+			</h2>
+			<section class="w-full flex justify-center items-center my-4">
+				<div
+					class="w-110 h-14.5 flex items-center justify-center text-neutral-50 gap-40 px-20 pt-5 shrink-0 border-b border-neutral-700"
+				>
+					<!-- <div class="flex flex-col gap-4 h-full"> -->
+					<div class="pb-3 border-blue-default border-b-2">For you</div>
+					<!-- <div class="bg-blue-default rounded w-14 h-1"></div> -->
+					<!-- </div> -->
+					<div class="pb-3">Following</div>
+				</div>
+			</section>
+
+			<!-- Home and User Icons  -->
+			<h2 class="text-white text-2xl font-semibold text-center">Icons</h2>
+			<section class="my-4 flex items-center justify-center gap-5">
+				<img src="../public/images/homeEmpty.svg" class="" />
+				<img src="../public/images/homeFill.svg" />
+			</section>
+			<section class="my-4 flex items-center justify-center gap-5">
+				<img src="../public/images/userEmpty.svg" class="" />
+				<img src="../public/images/userFill.svg" />
+			</section>
+		</main>
+	</body>
+</html>
